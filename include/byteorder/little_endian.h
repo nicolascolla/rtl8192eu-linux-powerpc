@@ -22,7 +22,7 @@
 	#define __LITTLE_ENDIAN_BITFIELD
 #endif
 
-#include <byteorder/swab.h>
+#include <linux/swab.h>
 
 #ifndef __constant_htonl
 	#define __constant_htonl(x) ___constant_swab32((x))
